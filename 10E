@@ -1,0 +1,22 @@
+ function begin() {
+let login = prompt("User?");
+if(login == "Admin"){
+    let password = prompt("Password?");
+    if (password == "TheMaster"){
+ alert ("Welcome!");
+}
+    else if( password == null || password == undefined || password ==''){
+    alert("Canceled");
+}
+    else{
+    alert("Senha Incorreta");
+    }
+}
+else if (login == null || login == undefined || login == ''){
+  alert("Cancelado");
+}
+else{
+  alert("Não conheço você");
+    }
+}
+begin()
