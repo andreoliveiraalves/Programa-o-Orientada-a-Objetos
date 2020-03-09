@@ -1,0 +1,9 @@
+function numbersBetweenWithx3(a,b){
+    let string = " ";
+    for(let i=a; i<b;i++){
+        if(i%3==0){
+        string+= i + ", ";}
+    }
+    let output = string.slice(0,-2)
+    console.log(output);
+}
