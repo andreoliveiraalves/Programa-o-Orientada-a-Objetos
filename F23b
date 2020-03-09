@@ -1,0 +1,8 @@
+function pow(x,n){
+   if( Number.isInteger(x) == false || Number.isInteger(n) == false || x<1 || n<1){
+   console.log("Número não natural!");
+   } 
+   else{
+   console.log(x**n);
+   }
+}
