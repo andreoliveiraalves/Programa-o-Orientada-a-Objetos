@@ -1,0 +1,17 @@
+function chooseOperator(a,b,operator){
+    var a = prompt("Primeiro número?")
+    var b = prompt("Segundo número?")
+    var operator = prompt("Operador?")
+    if(operator=='+'){
+        alert( a + b)}
+    else if(operator=='-'){
+        alert( a - b )}
+    else if(operator=='*'){
+        alert( a * b)}
+    else if(operator=='/'){
+        if(b==0){
+            alert("Não é possivel efetuar a divisão por 0!")}
+        else{
+        alert( a / b)}
+    }
+}
