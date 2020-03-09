@@ -1,0 +1,8 @@
+function numbersBetween(a,b){
+    let string = " ";
+    for(let i=a; i<b;i++){
+        string+= i + ", ";
+    }
+    let output = string.slice(0,-2)
+    console.log(output);
+}
