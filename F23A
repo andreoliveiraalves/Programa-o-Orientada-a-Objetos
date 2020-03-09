@@ -1,0 +1,9 @@
+function min(a,b){
+    if (a>b){
+        console.log("Menor número: " + b);}
+    else if (a<b){
+        console.log("Menor número: " + a);}
+    else{
+        console.log("Os números " + a + " e " + b + " são iguais")
+    }
+}
