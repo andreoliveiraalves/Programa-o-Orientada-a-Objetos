@@ -1,0 +1,5 @@
+function girlFriends(fName,lName,...args){
+    let friendsCount = args.length;
+    let string = "A " + fName + ' ' + lName + " tem " + friendsCount + " amigas!"
+    console.log(string);
+}
