@@ -1,0 +1,19 @@
+function guessTheNumber(){
+    generatedNumber = Math.floor(Math.random() * 100)
+    let bool = false;
+    for(let i = 0; i<5;i++){
+    let number = prompt("Número de 1 a 100");
+    if(number==generatedNumber){
+            console.log("Adivinhou,parabéns! ; " + (4-i) + " tentativas");}
+         let bool = true;
+         if(number<generatedNumber){
+            console.log("Para cima ; " + (4-i) + " tentativas");
+           }
+         if(number>generatedNumber){
+            console.log("Para Baixo ; " + (4-i) + " tentativas");
+           }
+         }
+       if(bool==false){
+       console.log("Paciência, jogue outra vez!");
+       }
+}
